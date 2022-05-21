@@ -24,6 +24,13 @@
  *  16. stats
  *  17. contact
  *  18. footer
+ *  19. education
+ *  20. papers
+ *  21. theses
+ *  22. code
+ *  23. prize
+ *  24. teaching
+ *  25. miscellaneous
  *
  * =================================================================== 
  */
@@ -1046,6 +1053,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
 	letter-spacing: .4rem;
+}
+.academic {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3.6rem;
+	position: relative;
 }
 
 /**
@@ -2597,3 +2611,93 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+/** 
+ * ===================================================================
+ * 19. education - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+#education {
+	background: #FFFFFF;
+	padding-top: 7rem;
+	padding-bottom: 0.25rem;
+}
+
+
+/** 
+ * ===================================================================
+ * 20. papers - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+#papers {
+	background: #ebebeb;
+	padding-top: 7rem;
+	padding-bottom: 0.25rem;
+}
+
+
+/** 
+ * ===================================================================
+ * 21. theses - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+#theses {
+	background: #FFFFFF;
+	padding-top: 7rem;
+	padding-bottom: 0.25rem;
+}
+
+
+/** 
+ * ===================================================================
+ * 22. code - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+#code {
+	background: #ebebeb;
+	padding-top: 7rem;
+	padding-bottom: 0.25rem;
+}
+
+
+/** 
+ * ===================================================================
+ * 23. prize - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+#prize {
+	background: #FFFFFF;
+	padding-top: 7rem;
+	padding-bottom: 0.25rem;
+}
+
+/** 
+ * ===================================================================
+ * 24. teaching - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+#teaching {
+	background: #ebebeb;
+	padding-top: 7rem;
+	padding-bottom: 0.25rem;
+}
+
+
+/** 
+ * ===================================================================
+ * 25. miscellaneous - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+#miscellaneous {
+	background: #FFFFFF;
+	padding-top: 7rem;
+	padding-bottom: 0.25rem;
+}
